@@ -1,0 +1,44 @@
+.card {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 15px;
+  align-items: center;
+  width: 300px;
+  height: 350px;
+  margin-left: 20px;
+  text-align: center;
+  background-color: rgb(198, 162, 255);
+  padding-top: 25px;
+}
+
+.house_image {
+  border: 3px solid black;
+  border-radius: 4px;
+  height: 200px; /* add a fixed height */
+  object-fit: cover; /* ensure the image covers the entire element */
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+}

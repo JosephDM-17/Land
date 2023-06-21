@@ -1,0 +1,30 @@
+
+.bg_container{
+    background-image: url("../../assets/nature4.webp");
+    background-position: center; 
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+
+}
+
+.inner_class1{
+    display: flex;
+    flex-direction: column; 
+    border: none;
+    margin:50px auto;
+    border-radius: 10px;
+    width:100%;
+    height:100vh;
+    font-size:60px ;
+    color: aliceblue;
+    font-weight: bold;
+    padding-left: 20px;
+   
+}
+

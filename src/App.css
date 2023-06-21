@@ -1,0 +1,11 @@
+.base
+{
+  background-image: url("./assets/nature4.webp");
+  
+    background-position: center; 
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    width:100%;
+    position: absolute;
+    height:100vh;
+}
